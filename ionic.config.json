@@ -3,5 +3,9 @@
   "integrations": {
     "capacitor": {}
   },
-  "type": "angular"
+  "type": "angular",
+  "proxies": [{
+    "path": "/todo",
+    "proxyUrl": "http://172.22.6.17/todo/api.php"
+  }]
 }
